@@ -5,8 +5,27 @@ class Student extends CI_Controller {
 
 	public function index()
 	{
-		// $this->load->view('student/student_dashboard_view');
-		
+		$this->queries();
+	}
+
+	public function notes()
+	{
+
+	}
+
+	public function queries()
+	{
+		$this->load->view('student/query_view');		
+	}
+
+	public function events()
+	{
+
+	}
+
+	public function feedback()
+	{
+
 	}
 
 	public function __construct()

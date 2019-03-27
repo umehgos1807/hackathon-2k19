@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 27, 2019 at 11:27 AM
+-- Generation Time: Mar 27, 2019 at 11:38 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.1.26
 
@@ -119,8 +119,15 @@ CREATE TABLE `teacher` (
   `password` varchar(255) NOT NULL,
   `email` varchar(100) NOT NULL,
   `phone` bigint(20) NOT NULL,
-  `college_id` int(11) NOT NULL
+  `college_id` varchar(25) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `teacher`
+--
+
+INSERT INTO `teacher` (`teacher_id`, `password`, `email`, `phone`, `college_id`) VALUES
+('nisha123', 'nisha', 'nisha@gmail.com', 8987676545, 'msec123');
 
 --
 -- Indexes for dumped tables

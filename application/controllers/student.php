@@ -20,7 +20,7 @@ class Student extends CI_Controller {
 
 	public function events()
 	{
-
+		$this->load->view('student/events_view');
 	}
 
 	public function feedback()
@@ -34,7 +34,7 @@ class Student extends CI_Controller {
 
 		if(!isset($_SESSION['usn']))
 		{
-			header('Location:home/index');
+			header('Location:../home/index');
 		}
 	}
 }

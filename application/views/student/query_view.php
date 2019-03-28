@@ -4,7 +4,8 @@ include 'student_sidebar_view.php';
 ?>
 
 
-<ul class="nav nav-tabs">
+<div class="page-wrapper">
+  <ul class="nav nav-tabs">
   <li class="nav-item">
     <a class="nav-link active" href="#">Active</a>
   </li>
@@ -19,6 +20,7 @@ include 'student_sidebar_view.php';
   </li>
 </ul>
 
+</div>
 <?php 
 include 'student_footer_view.php';
 ?>

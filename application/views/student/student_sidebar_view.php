@@ -13,22 +13,36 @@
       <div class="sidebar-header">
 
         <div class="user-info">
-          <span class="user-name">Jhon
-            <strong>Smith</strong>
-          </span>
-          <span class="user-role">Administrator</span>
+          <span class="user-name">Himanshu Goswami</span>
+          <span class="user-role">1ME15CS028</span>
           
         </div>
       </div>
 
       <div class="sidebar-menu">
         <ul>
-          <li style="color:white;font-size: 1.2em;" class="header-menu">
-            <span>Menu</span>
+          <li  class="header-menu">
+            <span style="color:white!important;font-size: 1.2em;">Menu</span>
           </li>
           <li class="sidebar-dropdown">
             <a href="#">              
+              <span>Events</span>              
+            </a>           
+          </li>
+          <li class="sidebar-dropdown" >
+            <a href="">              
               <span>Notes</span>              
+            </a>           
+          </li>
+          <li class="sidebar-dropdown">
+            <a href="#">              
+              <span>Ask Question</span>              
+            </a>           
+          </li>
+          
+          <li class="sidebar-dropdown">
+            <a href="#">              
+              <span>Feedback</span>              
             </a>           
           </li>
         </ul>

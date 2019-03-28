@@ -23,10 +23,10 @@ jQuery(function ($) {
 });
 
   $("#close-sidebar").click(function() {
-    $(".page-wrapper").removeClass("toggled");
+    $(".page-wrapper").removeClass("toggled-active");
   });
   $("#show-sidebar").click(function() {
-    $(".page-wrapper").addClass("toggled");
+    $(".page-wrapper").addClass("toggled-active");
   });
 
 

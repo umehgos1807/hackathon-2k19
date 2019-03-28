@@ -62,11 +62,11 @@ body {
 /*----------------page-wrapper----------------*/
 
 .toggled-active{
-  margin-right: -300px;
+  width:70%;
 }
 .page-wrapper {
   height: 100vh;
-  float: left;
+  float:left;
 }
 
 .page-wrapper .theme {
@@ -80,17 +80,19 @@ body {
 .page-wrapper .theme.chiller-theme {
   background: #1e2229;
 }
-.content-wrapper{
-  margin-top:30px;
-  padding-left:300px;
-  width:70%;
-}
+
 /*----------------toggeled sidebar----------------*/
 
 .page-wrapper.toggled .sidebar-wrapper {
   left: 0px;
 }
-
+.content-wrapper{
+  margin-top:30px;
+  padding-left:300px;
+}
+.card{
+  width:70%!important;
+}
 @media screen and (min-width: 768px) {
   .page-wrapper.toggled .page-content {
     padding-left: 300px;

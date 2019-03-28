@@ -3,7 +3,7 @@ include 'student_header_view.php';
 include 'student_sidebar_view.php';
 ?>
 
-<div class="page-content">
+<div class="content-wrapper">
 	
 </div>
 

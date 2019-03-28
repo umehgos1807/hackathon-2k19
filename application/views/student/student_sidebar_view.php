@@ -25,23 +25,23 @@
             <span style="color:white!important;font-size: 1.2em;">Menu</span>
           </li>
           <li class="sidebar-dropdown">
-            <a href="#">              
+            <a href="../student/index">              
               <span>Events</span>              
             </a>           
           </li>
           <li class="sidebar-dropdown" >
-            <a href="">              
+            <a href="../student/notes">              
               <span>Notes</span>              
             </a>           
           </li>
           <li class="sidebar-dropdown">
-            <a href="#">              
+            <a href="../student/query">              
               <span>Ask Question</span>              
             </a>           
           </li>
           
           <li class="sidebar-dropdown">
-            <a href="#">              
+            <a href="../student/feedback">              
               <span>Feedback</span>              
             </a>           
           </li>
